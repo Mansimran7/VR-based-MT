@@ -1,0 +1,191 @@
+{
+    "asset": {
+        "copyright": "2020 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - 611127eacd250f22943d21b3c2c9dbaa3a0ef9a2",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 170,
+            "type": "VEC3",
+            "max": [
+                0.010000004433095456,
+                0.034000005573034289,
+                0.009999999776482582
+            ],
+            "min": [
+                -0.023458437994122506,
+                -0.0342259481549263,
+                -0.010003519244492054
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 170,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 170,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 348,
+            "type": "SCALAR",
+            "max": [
+                169.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 2040,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2040,
+            "byteLength": 2040,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 4080,
+            "byteLength": 1360,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5440,
+            "byteLength": 1392,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 6832,
+            "uri": "SecurePass_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.00015198023174889386,
+                "yfov": 0.6024156808853149,
+                "zfar": 8.358912467956543,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "images": [
+        {
+            "name": "texture3608123",
+            "uri": "SecurePass_images/texture3608123.jpg",
+            "mimeType": "image/jpeg"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.30151134729385378
+            },
+            "name": "Check_Mat",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Cube",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                1.1729216575622559,
+                0.325009286403656,
+                0.48870283365249636
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "translation": [
+                0.6729216575622559,
+                0.02500930242240429,
+                -0.011297149583697319
+            ],
+            "rotation": [
+                -0.7071068286895752,
+                0.0,
+                0.0,
+                0.7071067094802856
+            ],
+            "scale": [
+                100.0,
+                100.0,
+                2.5
+            ],
+            "mesh": 0,
+            "name": "SecurePass"
+        }
+    ],
+    "samplers": [
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "textures": [
+        {
+            "name": "texture3608123",
+            "sampler": 0,
+            "source": 0
+        }
+    ],
+    "scene": 0
+}

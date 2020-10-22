@@ -1,0 +1,88 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
+  </head>
+  <body>
+    <a-scene physics="debug: true">
+      
+     <!--  <a-plane src = "https://images.unsplash.com/photo-1555505019-8c3f1c4aba5f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" position="0 0 0" rotation="-90 0 0" height="30" width="30">
+      </a-plane>
+      <a-plane src = "https://images.unsplash.com/photo-1573828718637-233537e3b9e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" position="0 6 0" rotation="90 0 0" height="30" width="30">
+      </a-plane>
+      <a-box static-body src = "https://images.unsplash.com/photo-1521846562476-9c2446539e47?ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80" position="0 3 -15" height="6" width="30" depth="0.2" ></a-box>
+      <a-box src = "https://images.unsplash.com/photo-1506143925201-0252c51780b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80" position="-15 3 0" rotation="0 90 0" height="6" width="30" depth="0.2" ></a-box>
+      <a-box src = "https://images.unsplash.com/photo-1506143925201-0252c51780b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80" position="0 3 15" height="6" width="30" depth="0.2" ></a-box>
+      <a-box src = "https://images.unsplash.com/photo-1506143925201-0252c51780b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80" position="15 3 0" rotation="0 90 0" height="6" width="30" depth="0.2" ></a-box> -->
+      <!-- <a-sky src="https://images.unsplash.com/photo-1595697935522-c4e01a13a807?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" position="10 0 10"></a-sky> -->
+      <a-assets>
+    <a-asset-item id="env2" src="Environment2.gltf"></a-asset-item>
+  </a-assets>
+  <a-entity position="0 0 -3.5" gltf-model="#env2" modify-materials></a-entity>
+
+        <a-assets>
+    <a-asset-item id="laptop" src="laptop.gltf"></a-asset-item>
+  </a-assets>
+  <a-entity position="4.8 0.9 -3.5" rotation="0 -90 0" gltf-model="#laptop" modify-materials  event-set__enter="_event: mouseenter; _target: #laptopText; visible: true" event-set__click="_event: click; visible: false" event-set__exit="_event: mouseleave; _target: #laptopText; visible: false">
+                  <a-text id="laptopText" value="Click to safely put away" align="center" color="#FFF" visible="false" position="0 0.75 0.2"
+              geometry="primitive: plane; width:2.5" material="color: #333" scale="0.25 0.25 0.25"></a-text>
+                </a-entity>
+
+                       <a-assets>
+    <a-asset-item id="shredder" src="Shredder.gltf"></a-asset-item>
+  </a-assets>
+  <a-entity position="2 0 -9.3" gltf-model="#shredder" modify-materials event-set__enter="_event: mouseenter; _target: #shredderText; visible: true"  event-set__exit="_event: mouseleave; _target: #shredderText; visible: false">
+                  <a-text id="shredderText" value="Shredder" align="center" color="#FFF" visible="false" position="0 1 0.55"
+              geometry="primitive: plane; width:2.5" material="color: #333" scale="0.5 0.5 0.8"></a-text>
+                </a-entity>
+
+                 <a-assets>
+    <a-asset-item id="dustbin" src="Dustbin.glb"></a-asset-item>
+  </a-assets>
+  <a-entity position="-2 0 -9.3" gltf-model="#dustbin" modify-materials event-set__enter="_event: mouseenter; _target: #dustbinText; visible: true"  event-set__exit="_event: mouseleave; _target: #dustbinText; visible: false">
+                  <a-text id="dustbinText" value="Dustbin" align="center" color="#FFF" visible="false" position="0 1 0.55"
+              geometry="primitive: plane; width:2.5" material="color: #333" scale="0.5 0.5 0.8"></a-text>
+                </a-entity>
+
+                    <a-asset-item id="cabinet" src="file_cabinet.gltf"></a-asset-item>
+  </a-assets>
+  <a-entity position="-0.5 0 -9.3" gltf-model="#cabinet" modify-materials event-set__enter="_event: mouseenter; _target: #cabinetText; visible: true"  event-set__exit="_event: mouseleave; _target: #cabinetText; visible: false">
+                  <a-text id="cabinetText" value="File Cabinet" align="center" color="#FFF" visible="false" position="0 1 0.55"
+              geometry="primitive: plane; width:2.5" material="color: #333" scale="0.5 0.5 0.8"></a-text>
+                </a-entity>
+
+                <a-asset-item id="folder" src="Folder.gltf"></a-asset-item>
+  </a-assets>
+  <a-entity position="4.8 0.9 -3" rotation="0 -90 0" gltf-model="#folder" modify-materials event-set__enter="_event: mouseenter; _target: #folderText; visible: true"  event-set__exit="_event: mouseleave; _target: #folderText; visible: false" scale="0.25 0.25 0.25">
+                  <a-text id="folderText" value="Folder" align="center" color="#FFF" visible="false" position="0 1 -0.55"
+              geometry="primitive: plane; width:2.5" material="color: #333" scale="0.5 0.5 0.8"></a-text>
+                </a-entity>
+
+<a-assets>
+    <a-asset-item id="securepass" src="SecurePass.gltf"></a-asset-item>
+  </a-assets>
+  <a-entity position="4.8 0.95 -2.4" rotation="0 -90 0" gltf-model="#securepass" scale="0.05 0.05 0.05" modify-materials  event-set__enter="_event: mouseenter; _target: #secureText; visible: true" event-set__click="_event: click; visible: false" event-set__exit="_event: mouseleave; _target: #secureText; visible: false">
+                  <a-text id="secureText" value="Secure Pass" align="center" color="#FFF" visible="false" position="0 0.75 0.2"
+              geometry="primitive: plane; width:2.5" material="color: #333" scale="2.3 2.3 2.3"></a-text>
+                </a-entity>
+                
+
+
+
+                
+
+                
+
+
+                
+
+
+                
+
+<a-camera>
+      <a-cursor></a-cursor>
+    </a-camera>
+    </a-scene>
+  </body>
+  
+</html>

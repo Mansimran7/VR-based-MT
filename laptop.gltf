@@ -1,0 +1,974 @@
+{
+    "asset": {
+        "copyright": "2020 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - 611127eacd250f22943d21b3c2c9dbaa3a0ef9a2",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 73551,
+            "type": "VEC3",
+            "max": [
+                0.2288917452096939,
+                0.02599157951772213,
+                0.061560120433568957
+            ],
+            "min": [
+                -0.23163609206676484,
+                0.021959440782666208,
+                -0.08786826580762863
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 73551,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 73551,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 394152,
+            "type": "SCALAR",
+            "max": [
+                73550.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 1216,
+            "type": "VEC3",
+            "max": [
+                0.23833851516246797,
+                0.024619439616799356,
+                0.16854751110076905
+            ],
+            "min": [
+                -0.2523094713687897,
+                0.01542745903134346,
+                -0.10295584797859192
+            ]
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5126,
+            "count": 1216,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 1216,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5125,
+            "count": 1800,
+            "type": "SCALAR",
+            "max": [
+                1215.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 8,
+            "componentType": 5126,
+            "count": 17093,
+            "type": "VEC3",
+            "max": [
+                0.25254490971565249,
+                0.024900969117879869,
+                0.19995146989822389
+            ],
+            "min": [
+                -0.25394827127456667,
+                0.00387219013646245,
+                -0.14943827688694
+            ]
+        },
+        {
+            "bufferView": 9,
+            "componentType": 5126,
+            "count": 17093,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 10,
+            "componentType": 5126,
+            "count": 17093,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 11,
+            "componentType": 5125,
+            "count": 93372,
+            "type": "SCALAR",
+            "max": [
+                17092.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 12,
+            "componentType": 5126,
+            "count": 8992,
+            "type": "VEC3",
+            "max": [
+                0.25260043144226076,
+                0.3731192648410797,
+                -0.1491221785545349
+            ],
+            "min": [
+                -0.25403767824172976,
+                0.025049660354852678,
+                -0.1578332930803299
+            ]
+        },
+        {
+            "bufferView": 13,
+            "componentType": 5126,
+            "count": 8992,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 14,
+            "componentType": 5126,
+            "count": 8992,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 15,
+            "componentType": 5125,
+            "count": 49632,
+            "type": "SCALAR",
+            "max": [
+                8991.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 16,
+            "componentType": 5126,
+            "count": 2805,
+            "type": "VEC3",
+            "max": [
+                0.13409893214702607,
+                0.3731220066547394,
+                -0.14916232228279115
+            ],
+            "min": [
+                -0.13553617894649507,
+                0.21599428355693818,
+                -0.15782757103443147
+            ]
+        },
+        {
+            "bufferView": 17,
+            "componentType": 5126,
+            "count": 2805,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 18,
+            "componentType": 5126,
+            "count": 2805,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 19,
+            "componentType": 5125,
+            "count": 16308,
+            "type": "SCALAR",
+            "max": [
+                2804.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 20,
+            "componentType": 5126,
+            "count": 104,
+            "type": "VEC3",
+            "max": [
+                0.25187259912490847,
+                0.3720307946205139,
+                -0.15192362666130067
+            ],
+            "min": [
+                -0.25235220789909365,
+                0.026662059128284456,
+                -0.15577121078968049
+            ]
+        },
+        {
+            "bufferView": 21,
+            "componentType": 5126,
+            "count": 104,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 22,
+            "componentType": 5126,
+            "count": 104,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 23,
+            "componentType": 5125,
+            "count": 132,
+            "type": "SCALAR",
+            "max": [
+                103.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 24,
+            "componentType": 5126,
+            "count": 889,
+            "type": "VEC3",
+            "max": [
+                0.004725540056824684,
+                0.36860930919647219,
+                -0.15073466300964356
+            ],
+            "min": [
+                -0.0075134402140975,
+                0.35637038946151736,
+                -0.15332578122615815
+            ]
+        },
+        {
+            "bufferView": 25,
+            "componentType": 5126,
+            "count": 889,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 26,
+            "componentType": 5126,
+            "count": 889,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 27,
+            "componentType": 5125,
+            "count": 5112,
+            "type": "SCALAR",
+            "max": [
+                888.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 28,
+            "componentType": 5126,
+            "count": 128,
+            "type": "VEC3",
+            "max": [
+                0.2513429820537567,
+                0.37100645899772646,
+                -0.1495882123708725
+            ],
+            "min": [
+                -0.25212332606315615,
+                0.026581307873129846,
+                -0.1502271592617035
+            ]
+        },
+        {
+            "bufferView": 29,
+            "componentType": 5126,
+            "count": 128,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 30,
+            "componentType": 5126,
+            "count": 128,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 31,
+            "componentType": 5125,
+            "count": 228,
+            "type": "SCALAR",
+            "max": [
+                127.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 882612,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 882612,
+            "byteLength": 882612,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1765224,
+            "byteLength": 588408,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2353632,
+            "byteLength": 1576608,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 3930240,
+            "byteLength": 14592,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 3944832,
+            "byteLength": 14592,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 3959424,
+            "byteLength": 9728,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 3969152,
+            "byteLength": 7200,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 3976352,
+            "byteLength": 205116,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 4181468,
+            "byteLength": 205116,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 4386584,
+            "byteLength": 136744,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 4523328,
+            "byteLength": 373488,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 4896816,
+            "byteLength": 107904,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5004720,
+            "byteLength": 107904,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5112624,
+            "byteLength": 71936,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5184560,
+            "byteLength": 198528,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5383088,
+            "byteLength": 33660,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5416748,
+            "byteLength": 33660,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5450408,
+            "byteLength": 22440,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5472848,
+            "byteLength": 65232,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5538080,
+            "byteLength": 1248,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5539328,
+            "byteLength": 1248,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5540576,
+            "byteLength": 832,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5541408,
+            "byteLength": 528,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5541936,
+            "byteLength": 10668,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5552604,
+            "byteLength": 10668,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5563272,
+            "byteLength": 7112,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5570384,
+            "byteLength": 20448,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5590832,
+            "byteLength": 1536,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5592368,
+            "byteLength": 1536,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5593904,
+            "byteLength": 1024,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5594928,
+            "byteLength": 912,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 5595840,
+            "uri": "laptop_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.000014528084648190998,
+                "yfov": 0.6024156808853149,
+                "zfar": 2.0,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "images": [
+        {
+            "name": "laptop_16_10_keyboard_baseColor",
+            "uri": "laptop_images/laptop_16_10_keyboard_baseColor.jpg",
+            "mimeType": "image/jpeg"
+        },
+        {
+            "name": "image",
+            "uri": "laptop_images/image.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "laptop_16_10_keyboard_normal",
+            "uri": "laptop_images/laptop_16_10_keyboard_normal.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "image_0",
+            "uri": "laptop_images/image_0.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "laptop_16_10_metal_normal",
+            "uri": "laptop_images/laptop_16_10_metal_normal.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "image_1",
+            "uri": "laptop_images/image_1.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "laptop_16_10_shell_normal",
+            "uri": "laptop_images/laptop_16_10_shell_normal.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "laptop_16_10_screen_baseColor",
+            "uri": "laptop_images/laptop_16_10_screen_baseColor.jpg",
+            "mimeType": "image/jpeg"
+        },
+        {
+            "name": "laptop_16_10_camera_baseColor",
+            "uri": "laptop_images/laptop_16_10_camera_baseColor.jpg",
+            "mimeType": "image/jpeg"
+        },
+        {
+            "name": "image_2",
+            "uri": "laptop_images/image_2.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "laptop_16_10_camera_normal",
+            "uri": "laptop_images/laptop_16_10_camera_normal.png",
+            "mimeType": "image/png"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0,
+                "metallicRoughnessTexture": {
+                    "index": 1
+                }
+            },
+            "normalTexture": {
+                "index": 2
+            },
+            "name": "Keyboard Material",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.020000062882900239,
+                    0.020000062882900239,
+                    0.020000062882900239,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "metallicRoughnessTexture": {
+                    "index": 3
+                }
+            },
+            "normalTexture": {
+                "index": 4
+            },
+            "name": "Metal Material",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6939998865127564,
+                    0.6939998865127564,
+                    0.6939998865127564,
+                    1.0
+                ],
+                "metallicRoughnessTexture": {
+                    "index": 5
+                }
+            },
+            "normalTexture": {
+                "index": 6
+            },
+            "name": "Frame Material",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 7
+                },
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.5
+            },
+            "emissiveTexture": {
+                "index": 7
+            },
+            "emissiveFactor": [
+                0.5,
+                0.5,
+                0.5
+            ],
+            "name": "Screen Material",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 8
+                },
+                "metallicFactor": 0.0,
+                "metallicRoughnessTexture": {
+                    "index": 9
+                }
+            },
+            "normalTexture": {
+                "index": 10
+            },
+            "name": "Camera Material",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.25
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.10000000149011612
+            },
+            "alphaMode": "BLEND",
+            "name": "Glass Material",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Keyboard",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 2,
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "Trackpad Frame",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 4,
+                        "NORMAL": 5,
+                        "TEXCOORD_0": 6
+                    },
+                    "indices": 7,
+                    "material": 1
+                }
+            ]
+        },
+        {
+            "name": "Laptop Body",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 10,
+                        "NORMAL": 9,
+                        "POSITION": 8
+                    },
+                    "indices": 11,
+                    "material": 2
+                }
+            ]
+        },
+        {
+            "name": "Screen Frame",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 14,
+                        "NORMAL": 13,
+                        "POSITION": 12
+                    },
+                    "indices": 15,
+                    "material": 2
+                }
+            ]
+        },
+        {
+            "name": "Screen Frame Back",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 16,
+                        "NORMAL": 17,
+                        "TEXCOORD_0": 18
+                    },
+                    "indices": 19,
+                    "material": 1
+                }
+            ]
+        },
+        {
+            "name": "Screen",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 20,
+                        "NORMAL": 21,
+                        "TEXCOORD_0": 22
+                    },
+                    "indices": 23,
+                    "material": 3
+                }
+            ]
+        },
+        {
+            "name": "Camera",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 24,
+                        "NORMAL": 25,
+                        "TEXCOORD_0": 26
+                    },
+                    "indices": 27,
+                    "material": 4
+                }
+            ]
+        },
+        {
+            "name": "Glass",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 28,
+                        "NORMAL": 29,
+                        "TEXCOORD_0": 30
+                    },
+                    "indices": 31,
+                    "material": 5
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                0.20246437191963197,
+                -0.5087135434150696,
+                1.3356684446334839
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "children": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+            ],
+            "translation": [
+                0.0007231712224893272,
+                -0.0038967132568359377,
+                -0.021192627027630807
+            ],
+            "scale": [
+                1.0063380002975464,
+                1.0063380002975464,
+                1.0063380002975464
+            ],
+            "name": "16:10 Laptop"
+        },
+        {
+            "mesh": 0,
+            "name": "Keyboard"
+        },
+        {
+            "mesh": 1,
+            "name": "Trackpad Frame"
+        },
+        {
+            "mesh": 2,
+            "name": "Laptop Body"
+        },
+        {
+            "mesh": 3,
+            "name": "Screen Frame"
+        },
+        {
+            "mesh": 4,
+            "name": "Screen Frame Back"
+        },
+        {
+            "mesh": 5,
+            "name": "Screen"
+        },
+        {
+            "mesh": 6,
+            "name": "Camera"
+        },
+        {
+            "mesh": 7,
+            "name": "Glass"
+        }
+    ],
+    "samplers": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "textures": [
+        {
+            "name": "MODEL_LAPTOP_16_10_MATERIAL_5::baseColor::image",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "image",
+            "sampler": 1,
+            "source": 1
+        },
+        {
+            "name": "MODEL_LAPTOP_16_10_MATERIAL_5::normal::image",
+            "sampler": 2,
+            "source": 2
+        },
+        {
+            "name": "image",
+            "sampler": 3,
+            "source": 3
+        },
+        {
+            "name": "MODEL_LAPTOP_16_10_MATERIAL_3::normal::image",
+            "sampler": 4,
+            "source": 4
+        },
+        {
+            "name": "image",
+            "sampler": 5,
+            "source": 5
+        },
+        {
+            "name": "MODEL_LAPTOP_16_10_MATERIAL_2::normal::image",
+            "sampler": 6,
+            "source": 6
+        },
+        {
+            "name": "MODEL_LAPTOP_16_10_MATERIAL_6::baseColor::image",
+            "sampler": 7,
+            "source": 7
+        },
+        {
+            "name": "MODEL_LAPTOP_16_10_MATERIAL_1::baseColor::image",
+            "sampler": 8,
+            "source": 8
+        },
+        {
+            "name": "image",
+            "sampler": 9,
+            "source": 9
+        },
+        {
+            "name": "MODEL_LAPTOP_16_10_MATERIAL_1::normal::image",
+            "sampler": 10,
+            "source": 10
+        }
+    ],
+    "scene": 0
+}

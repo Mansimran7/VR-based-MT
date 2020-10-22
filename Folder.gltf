@@ -1,0 +1,333 @@
+{
+    "asset": {
+        "copyright": "2020 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - 611127eacd250f22943d21b3c2c9dbaa3a0ef9a2",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 4,
+            "type": "VEC3",
+            "max": [
+                2.0,
+                0.0,
+                2.0
+            ],
+            "min": [
+                -2.0,
+                0.0,
+                -2.0
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 4,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 4,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 6,
+            "type": "SCALAR",
+            "max": [
+                3.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 78,
+            "type": "VEC3",
+            "max": [
+                0.550000011920929,
+                0.5,
+                0.5
+            ],
+            "min": [
+                -0.5,
+                -0.5,
+                -0.5
+            ]
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5126,
+            "count": 78,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 78,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5125,
+            "count": 120,
+            "type": "SCALAR",
+            "max": [
+                77.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 48,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 48,
+            "byteLength": 48,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 96,
+            "byteLength": 32,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 128,
+            "byteLength": 24,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 152,
+            "byteLength": 936,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1088,
+            "byteLength": 936,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2024,
+            "byteLength": 624,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2648,
+            "byteLength": 480,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 3128,
+            "uri": "Folder_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.00005899400275666267,
+                "yfov": 0.6024156808853149,
+                "zfar": 3.2446703910827638,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {},
+            "name": "Default-Plane",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6901960968971252,
+                    0.6901960968971252,
+                    0.6901960968971252,
+                    1.0
+                ]
+            },
+            "name": "Default-Plane1",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.021219009533524514,
+                    0.021219009533524514,
+                    0.04666508361697197,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.25
+            },
+            "emissiveFactor": [
+                0.014055722393095494,
+                0.014055722393095494,
+                0.030911503359675409
+            ],
+            "name": "Physical",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Plane",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "Plane1",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 2,
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 3,
+                    "material": 1
+                }
+            ]
+        },
+        {
+            "name": "Box",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 4,
+                        "NORMAL": 5,
+                        "TEXCOORD_0": 6
+                    },
+                    "indices": 7,
+                    "material": 2
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                -0.4504823088645935,
+                0.33700060844421389,
+                -3.2561168670654299
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "children": [
+                2,
+                3,
+                4
+            ],
+            "translation": [
+                -0.07765853404998779,
+                0.03700000047683716,
+                0.0
+            ],
+            "name": "Folder"
+        },
+        {
+            "translation": [
+                0.2493000030517578,
+                -0.020399998873472215,
+                0.039500001817941669
+            ],
+            "rotation": [
+                0.0,
+                -0.004535222426056862,
+                0.0,
+                0.9999896883964539
+            ],
+            "scale": [
+                0.35370001196861269,
+                1.0,
+                0.5593000054359436
+            ],
+            "mesh": 0,
+            "name": "Plane"
+        },
+        {
+            "translation": [
+                0.17030000686645509,
+                0.0272000003606081,
+                0.013199998997151852
+            ],
+            "rotation": [
+                0.0,
+                0.00821866188198328,
+                0.0,
+                0.9999662041664124
+            ],
+            "scale": [
+                0.35370001196861269,
+                1.0,
+                0.5593001246452332
+            ],
+            "mesh": 1,
+            "name": "Plane1"
+        },
+        {
+            "scale": [
+                1.6230000257492066,
+                0.07400000095367432,
+                2.3522000312805177
+            ],
+            "mesh": 2,
+            "name": "Box"
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "scene": 0
+}

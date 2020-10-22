@@ -1,0 +1,177 @@
+{
+    "asset": {
+        "copyright": "2020 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - 611127eacd250f22943d21b3c2c9dbaa3a0ef9a2",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 16113,
+            "type": "VEC3",
+            "max": [
+                0.1889359951019287,
+                0.14366398751735688,
+                0.4883209764957428
+            ],
+            "min": [
+                -0.18725499510765077,
+                -0.08767599612474442,
+                0.003410999896004796
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 16113,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 16113,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 85380,
+            "type": "SCALAR",
+            "max": [
+                16112.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 193356,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 193356,
+            "byteLength": 193356,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 386712,
+            "byteLength": 128904,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 515616,
+            "byteLength": 341520,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 857136,
+            "uri": "Shredder_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.00003912661486538127,
+                "yfov": 0.6024156808853149,
+                "zfar": 2.151963949203491,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.015208560973405838,
+                    0.01444380171597004,
+                    0.01444380171597004,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.6000000238418579
+            },
+            "name": "Default Material",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "16719_paper_shredder",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                0.49915948510169985,
+                0.30000007152557375,
+                6.516384601593018
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "translation": [
+                -0.0024928292259573938,
+                -0.00507544819265604,
+                0.043507080525159839
+            ],
+            "rotation": [
+                -0.6946583986282349,
+                5.111216185265787e-15,
+                4.935844366283889e-15,
+                0.7193397879600525
+            ],
+            "scale": [
+                2.9658939838409426,
+                2.9658937454223635,
+                2.9658937454223635
+            ],
+            "mesh": 0,
+            "name": "Shedder"
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "scene": 0
+}
