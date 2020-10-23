@@ -41,31 +41,39 @@
   </a-assets>
   <a-entity position="-2 0 -9.3" gltf-model="#dustbin" modify-materials event-set__enter="_event: mouseenter; _target: #dustbinText; visible: true"  event-set__exit="_event: mouseleave; _target: #dustbinText; visible: false">
                   <a-text id="dustbinText" value="Dustbin" align="center" color="#FFF" visible="false" position="0 1 0.55"
-              geometry="primitive: plane; width:2.5" material="color: #333" scale="0.5 0.5 0.8"></a-text>
+              geometry="primitive: plane; width:2.5" material="color: #333" scale="0.3 0.3 0.3"></a-text>
                 </a-entity>
 
                     <a-asset-item id="cabinet" src="file_cabinet.gltf"></a-asset-item>
   </a-assets>
   <a-entity position="-0.5 0 -9.3" gltf-model="#cabinet" modify-materials event-set__enter="_event: mouseenter; _target: #cabinetText; visible: true"  event-set__exit="_event: mouseleave; _target: #cabinetText; visible: false">
-                  <a-text id="cabinetText" value="File Cabinet" align="center" color="#FFF" visible="false" position="0 1 0.55"
+                  <a-text id="cabinetText" value="File Cabinet" align="center" color="#FFF" visible="false" position="0 2.5 0.55"
               geometry="primitive: plane; width:2.5" material="color: #333" scale="0.5 0.5 0.8"></a-text>
                 </a-entity>
 
                 <a-asset-item id="folder" src="Folder.gltf"></a-asset-item>
   </a-assets>
-  <a-entity position="4.8 0.9 -3" rotation="0 -90 0" gltf-model="#folder" modify-materials event-set__enter="_event: mouseenter; _target: #folderText; visible: true"  event-set__exit="_event: mouseleave; _target: #folderText; visible: false" scale="0.25 0.25 0.25">
+  <a-entity position="4.8 0.9 -2.8" rotation="0 -90 0" gltf-model="#folder" modify-materials event-set__enter="_event: mouseenter; _target: #folderText; visible: true"  event-set__exit="_event: mouseleave; _target: #folderText; visible: false" scale="0.25 0.25 0.25">
                   <a-text id="folderText" value="Folder" align="center" color="#FFF" visible="false" position="0 1 -0.55"
-              geometry="primitive: plane; width:2.5" material="color: #333" scale="0.5 0.5 0.8"></a-text>
+              geometry="primitive: plane; width:2.5" material="color: #333" scale="0.7 0.7 0.7"></a-text>
                 </a-entity>
 
 <a-assets>
     <a-asset-item id="securepass" src="SecurePass.gltf"></a-asset-item>
   </a-assets>
   <a-entity position="4.8 0.95 -2.4" rotation="0 -90 0" gltf-model="#securepass" scale="0.05 0.05 0.05" modify-materials  event-set__enter="_event: mouseenter; _target: #secureText; visible: true" event-set__click="_event: click; visible: false" event-set__exit="_event: mouseleave; _target: #secureText; visible: false">
-                  <a-text id="secureText" value="Secure Pass" align="center" color="#FFF" visible="false" position="0 0.75 0.2"
-              geometry="primitive: plane; width:2.5" material="color: #333" scale="2.3 2.3 2.3"></a-text>
+                  <a-text id="secureText" value="Secure Pass" align="center" color="#FFF" visible="false" position="0 2 0.2"
+              geometry="primitive: plane; width:2.5" material="color: #333" scale="3.5 3.5 3.5"></a-text>
                 </a-entity>
                 
+                                <a-assets>
+
+    <a-asset-item id="whiteboard" src="scene.gltf"></a-asset-item>
+  </a-assets>
+  <a-entity position="2 0 -2.4" rotation="0 -90 0" scale="0.13 0.13 0.13" gltf-model="#whiteboard" scale="0.05 0.05 0.05" modify-materials  event-set__enter="_event: mouseenter; _target: #boardText; visible: true" event-set__exit="_event: mouseleave; _target: #boardText; visible: false">
+                  <a-text id="boardText" rotation="0 90 0" value="Clean the Whiteboard" align="center" color="#FFF" visible="false" position="0 17 0.2"
+              geometry="primitive: plane; width:2.5" material="color: #333" scale="2.3 2.3 2.3"></a-text>
+                </a-entity>
 
 
 
