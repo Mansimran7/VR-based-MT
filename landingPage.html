@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>VR Mandatory Training</title>
+	<meta name="description" content="A-Frame Examples">
+	 <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+	 <script src="https://unpkg.com/aframe-environment-component@1.1.0/dist/aframe-environment-component.min.js"></script>
+	<script src="link-controls.js"></script>
+</head>
+
+<body>
+
+<!-- cursor activated from mouse position; only intersects objects with "link" component added (the <a-link> tag) -->
+<!-- environments featured: default, forest, egypt, goldmine, arches, japan, volcano -->
+
+<a-scene environment="preset: japan;" cursor="rayOrigin: mouse;" raycaster="far: 100; objects: [link];">
+	  
+	<a-assets>
+        <img id="previewVolcano"  src="images/coffee.jpg">
+        <img id="previewForest"   src="images/workplace.jpg">
+        <img id="previewArches"   src="images/desk.jpg">
+	</a-assets>
+
+<!-- note: raycast issue (link still active) after walking through portal -->
+
+<a-link	position="-4 1.6 -4" rotation="0 40 0"
+	href="portal-volcano.html" title="Coffee Place" image="#previewVolcano"></a-link>
+
+<a-link position="0 1.6 -6" 
+	href="Aframebasic.html" title="Workplace" image="#previewForest"></a-link>
+
+<a-link position="4 1.6 -4" rotation="0 -40 0"
+	href="portal-japan.html" title="Desk" image="#previewArches"></a-link>
+
+</a-scene>
+
+</body>
+</html>

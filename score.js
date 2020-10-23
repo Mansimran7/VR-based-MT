@@ -13,6 +13,7 @@ AFRAME.registerComponent('score-counter', {
         var sceneEl = document.querySelector('a-scene'); 
         var scoreBoard = document.querySelector('#score');
         var learningBoard = document.querySelector('#report')
+        var laptopPickText = document.querySelector('#laptopPickText')
         var learningText = 'Your Learnings: \n'
         var laptop = false;
         var documents = false;
@@ -32,6 +33,7 @@ AFRAME.registerComponent('score-counter', {
           scoreBoard.setAttribute('text', 'value',  newScore)
           learningText = learningText + 'Never leave your laptop unattended! (+1) \n';
           learningBoard.setAttribute('text', 'value', learningText)
+          laptopPickText.setAttribute('visible', true);
           } 
         })
 
